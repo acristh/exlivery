@@ -10,8 +10,7 @@ defmodule Exlivery.Users.User do
        email: email,
        cpf: cpf,
        age: age
-     }
-    }
+     }}
   end
 
   def build(_name, _email, _cpf, _age), do: {:error, "Invalid parameters!"}
